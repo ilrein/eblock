@@ -1,6 +1,7 @@
 import React from 'react';
 import { Image, Button } from 'semantic-ui-react';
 
+import Bid from './bid';
 import styles from './styles.scss';
 import car from './car.png';
 import verified from './verified.png';
@@ -19,6 +20,15 @@ const Lane = props =>
       <Button circular inverted color="green">
         Bid $16, 000
       </Button>
+    </div>
+    <div className={styles.list}>
+      <div className={styles.item}>
+        <Bid
+          top="#32 - '11 Ford Escape'"
+          middle="Auto, A/C, PW, CC, KE"
+          bottom="Ottawa, On - 22,030 km"
+        />
+      </div>
     </div>
   </div>;
 

@@ -21,7 +21,7 @@
 
       .bid {
         position: absolute;
-        top: 80%;
+        top: 8rem;
         button { background-color: white; }
       }
 
@@ -35,15 +35,28 @@
       .numcopy {
         position: absolute;
         z-index: 100;
-        top: 60%;
-        left: 2rem;
+        top: 6rem;
+        left: 1.5rem;
       }
 
       .iconscopy {
         position: absolute;
         z-index: 100;
-        top: 60%;
-        right: 2rem;
+        top: 6rem;
+        right: 1.5rem;
+      }
+
+      .list {
+        margin-top: 1rem;
+        width: 100%;
+        padding: 0 1rem;
+
+        .item {
+          display: flex;
+          flex-direction: column;
+          padding: 1.25rem 0;
+          border-bottom: 1px solid #eee;
+        }
       }
     }
   }
