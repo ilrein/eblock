@@ -163,6 +163,10 @@ module.exports = {
       {
         test: /\.scss$/,
         loader: 'style!css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!sass'
+      },
+      {
+        test: /\.(otf)$/,
+        loader: 'file?name=public/fonts/[name].[ext]'
       }
     ]
   },

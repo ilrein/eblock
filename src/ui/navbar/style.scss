@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  padding: 0.5rem;
+
+  .logo {
+    padding: 1rem;
+  }
+}
+
+.black {
+  background-color: #24292f;
+}
+
+.grey {
+  color: #7c7f82;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // font-family: ;
+}
