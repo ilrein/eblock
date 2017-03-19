@@ -45,6 +45,27 @@ const Lane = props =>
           bottom="104-567 km"
           favoured
         />
+        <Minibid
+          top="#32 - '11 Ford Escape'"
+          middle="Auto, A/C, PW, CC, KE"
+          bottom="104-567 km"
+        />
+        <Minibid
+          top="#32 - '11 Ford Escape'"
+          middle="Auto, A/C, PW, CC, KE"
+          bottom="104-567 km"
+        />
+        <Minibid
+          top="#32 - '11 Ford Escape'"
+          middle="Auto, A/C, PW, CC, KE"
+          bottom="104-567 km"
+          favoured
+        />
+        <Minibid
+          top="#32 - '11 Ford Escape'"
+          middle="Auto, A/C, PW, CC, KE"
+          bottom="104-567 km"
+        />
       </div>
     </div>
   </div>;
