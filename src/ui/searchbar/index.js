@@ -3,6 +3,7 @@ import { Input, Label } from 'semantic-ui-react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 import styles from './styles.scss';
+import List from './list';
 
 export default class SearchBar extends Component {
   render() {
@@ -24,8 +25,9 @@ export default class SearchBar extends Component {
               <Label className={styles.label} color="green" horizontal>1</Label>
             </Tab>
           </TabList>
+
           <TabPanel>
-            <h2>1</h2>
+            <List />
           </TabPanel>
           <TabPanel>
             <h2>2</h2>
