@@ -6,6 +6,7 @@ import fonts from '../../fonts/fonts.scss';
 
 import logo from './logo-eblock.png';
 import bars from './bars.png';
+import finished from './finished.png';
 
 const Navbar = () =>
   <div className={cx(styles.header, styles.black)}>
@@ -28,7 +29,7 @@ const Navbar = () =>
       </div>
 
       <div className={cx(styles.grey, styles.body)}>
-        <img className={styles.icon} src={bars} alt="eBlock" />
+        <img className={styles.icon} src={finished} alt="eBlock" />
         <div className={cx(fonts['promixanova-semibold'], styles.content)}>FINISHED</div>
       </div>
     </div>
