@@ -4,6 +4,10 @@
   padding: 2rem 0;
   border-bottom: 1px solid #eee;
 
+  &:hover {
+    background-color: #f6fffd;
+  }
+
   .top {
     display: flex;
     align-items: center;
@@ -16,7 +20,7 @@
     .ellp {
       height: 5px;
       width: 5px;
-      margin: 0 1rem;
+      margin: 0 0.5rem;
     }
 
     .place {
@@ -26,5 +30,18 @@
 
   .middle {
     display: flex;
+    margin: 0.25rem 0;
   }
+
+  .bottom {
+
+  }
+}
+
+.sameline {
+  display: flex;
+}
+
+.watchlist {
+  color: #f6c371;
 }
