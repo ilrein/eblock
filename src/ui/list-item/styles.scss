@@ -1,0 +1,30 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+  border-bottom: 1px solid #eee;
+
+  .top {
+    display: flex;
+    align-items: center;
+
+    .lane {
+      color: #53ccb3;
+      text-transform: uppercase;
+    }
+
+    .ellp {
+      height: 5px;
+      width: 5px;
+      margin: 0 1rem;
+    }
+
+    .place {
+      color: grey;
+    }
+  }
+
+  .middle {
+    display: flex;
+  }
+}
