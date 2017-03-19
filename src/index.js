@@ -11,7 +11,6 @@ class App extends React.Component {
   state = { minWidthReached: false }
 
   handleResize = (windowSize) => {
-    console.log(windowSize);
     if (windowSize.windowWidth < 1200) {
       this.setState({ minWidthReached: false })
     } else {

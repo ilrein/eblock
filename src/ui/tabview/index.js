@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import cx from 'classnames';
 
+import SearchBar from '../searchbar';
 import fonts from '../../fonts/fonts.scss';
 import styles from './styles.scss';
 
@@ -13,6 +14,7 @@ class TabView extends Component {
     return (
       <Tabs
         onSelect={this.handleSelect}
+        selectedIndex={3}
       >
         {/*
           <TabList/> is a composite component and is the container for the <Tab/>s.
@@ -60,7 +62,11 @@ class TabView extends Component {
           <h2>3</h2>
         </TabPanel>
         <TabPanel>
-          <h2>4</h2>
+          <div className={styles.container}>
+            <div className={styles.element}>
+              <SearchBar />
+            </div>
+          </div>
         </TabPanel>
       </Tabs>
     )

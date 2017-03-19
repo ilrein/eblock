@@ -1,0 +1,59 @@
+:global {
+  // .react-tabs {
+  //   display: flex;
+  // }
+  .ui.input input:focus, .ui.input.focus input {
+    border-color: #edeeef !important;
+  }
+  .ui.input input {
+    border: 1.5px solid rgba(34,36,38,.15);
+    width: 20rem;
+  }
+}
+
+.wrapper {
+  padding: 1rem;
+  border: 1.5px solid rgba(34,36,38,.15);
+  display: flex;
+  flex-direction: column;
+
+  :global {
+    .ReactTabs__Tab--selected {
+      color: black !important;
+      position: relative;
+
+      &::after {
+        border-bottom: 2px solid black;
+        content: '';
+        position: absolute;
+        display: inline-block;
+        height: 1em;
+        width: 100%;
+        left: 0;
+        margin: 1rem auto;
+      }
+    }
+  }
+
+  .tablist {
+    display: flex;
+    flex-direction: row;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+    padding: 1rem 0;
+    margin-right: 0.5rem;
+  }
+
+  .tab {
+    list-style: none;
+    margin-right: 0.5rem;
+    color: #919497;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+  }
+}
