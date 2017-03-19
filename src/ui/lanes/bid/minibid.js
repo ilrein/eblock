@@ -4,7 +4,7 @@ import cx from 'classnames';
 import fonts from '../../../fonts/fonts.scss';
 import styles from './styles.scss';
 
-const Bid = props =>
+const Minibid = props =>
   <div className={cx(styles.bid, props.favoured ? styles.favoured : null)}>
     <div className={cx(styles.top, fonts['promixanova-semibold'])}>
       {props.top}
@@ -13,8 +13,8 @@ const Bid = props =>
       {props.middle}
     </div>
     <div className={cx(styles.middle, fonts['promixanova'])}>
-      {props.bottom}
+      <span className={styles.green}>$4,900</span> - {props.bottom}
     </div>
   </div>;
 
-export default Bid;
+export default Minibid;

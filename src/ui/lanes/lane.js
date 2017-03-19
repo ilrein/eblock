@@ -2,6 +2,7 @@ import React from 'react';
 import { Image, Button } from 'semantic-ui-react';
 
 import Bid from './bid';
+import Minibid from './bid/minibid.js';
 import styles from './styles.scss';
 import car from './car.png';
 import verified from './verified.png';
@@ -27,6 +28,22 @@ const Lane = props =>
           top="#32 - '11 Ford Escape'"
           middle="Auto, A/C, PW, CC, KE"
           bottom="Ottawa, On - 22,030 km"
+        />
+        <Minibid
+          top="#32 - '11 Ford Escape'"
+          middle="Auto, A/C, PW, CC, KE"
+          bottom="104-567 km"
+        />
+        <Minibid
+          top="#32 - '11 Ford Escape'"
+          middle="Auto, A/C, PW, CC, KE"
+          bottom="104-567 km"
+        />
+        <Minibid
+          top="#32 - '11 Ford Escape'"
+          middle="Auto, A/C, PW, CC, KE"
+          bottom="104-567 km"
+          favoured
         />
       </div>
     </div>
