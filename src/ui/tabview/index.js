@@ -63,7 +63,7 @@ class TabView extends Component {
         </TabPanel>
         <TabPanel>
           <div className={styles.container}>
-            <div className={styles.element}>
+            <div className={styles.searchbox}>
               <SearchBar />
             </div>
           </div>

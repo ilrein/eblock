@@ -42,6 +42,10 @@
   flex-direction: row;
 
   .element {
-    flex: 0;
+    flex: 0.33;
+  }
+
+  .searchbox {
+    flex: 0.25;
   }
 }

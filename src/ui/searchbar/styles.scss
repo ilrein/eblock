@@ -44,7 +44,7 @@
     -webkit-margin-end: 0;
     -webkit-padding-start: 0;
     padding: 1rem 0;
-    margin-right: 0.5rem;
+    justify-content: space-around;
   }
 
   .tab {
@@ -55,5 +55,9 @@
     font-size: 12px;
     text-align: center;
     cursor: pointer;
+  }
+
+  .label {
+    min-width: 0em !important;
   }
 }

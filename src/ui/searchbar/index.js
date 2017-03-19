@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Input } from 'semantic-ui-react';
+import { Input, Label } from 'semantic-ui-react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 import styles from './styles.scss';
@@ -14,9 +14,15 @@ export default class SearchBar extends Component {
         <Tabs onSelect={this.handleSelect}>
           <TabList className={styles.tablist}>
             <Tab className={styles.tab}>all</Tab>
-            <Tab className={styles.tab}>outbid</Tab>
+            <Tab className={styles.tab}>
+              outbid
+              <Label className={styles.label} color="red" horizontal>2</Label>
+            </Tab>
             <Tab className={styles.tab}>watching</Tab>
-            <Tab className={styles.tab}>winning</Tab>
+            <Tab className={styles.tab}>
+              winning
+              <Label className={styles.label} color="green" horizontal>1</Label>
+            </Tab>
           </TabList>
           <TabPanel>
             <h2>1</h2>
