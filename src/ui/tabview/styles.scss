@@ -1,0 +1,33 @@
+// TabView
+
+.wrapper {
+  display: flex;
+  // justify-content:
+}
+
+.tab {
+  list-style: none;
+  margin-right: 2.5rem;
+  color: #919497;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+}
+
+:global {
+  .ReactTabs__Tab--selected {
+    color: #2c8ed9;
+    position: relative;
+
+    &::after {
+      border-bottom: 2px solid #2c8ed9;
+      content: '';
+      position: absolute;
+      display: inline-block;
+      height: 1em;
+      width: 100%;
+      left: 0;
+      margin: 1rem auto;
+    }
+  }
+}

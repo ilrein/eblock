@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import { WindowResizeListener } from 'react-window-resize-listener';
 
 import Navbar from './ui/navbar';
+import TabView from './ui/tabview';
 
 import './normalize.css';
 
@@ -25,7 +26,7 @@ class App extends React.Component {
         {this.state.minWidthReached ?
           <div>
             <Navbar />
-            App
+            <TabView />
           </div>
           :
           <div>Min width not reached</div>
