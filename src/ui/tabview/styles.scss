@@ -41,11 +41,15 @@
   display: flex;
   flex-direction: row;
 
-  .element {
-    flex: 0.33;
-  }
+  // .element {
+  //   flex: 0.33;
+  // }
 
   .searchbox {
     flex: 0.25;
+  }
+
+  .lanes {
+    flex: 0.5;
   }
 }

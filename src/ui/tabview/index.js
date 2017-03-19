@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import cx from 'classnames';
 
-import SearchBar from '../searchbar';
 import fonts from '../../fonts/fonts.scss';
 import styles from './styles.scss';
+
+import SearchBar from '../searchbar';
+import Lanes from '../lanes';
 
 class TabView extends Component {
   handleSelect = (index, last) => {};
@@ -65,6 +67,9 @@ class TabView extends Component {
           <div className={styles.container}>
             <div className={styles.searchbox}>
               <SearchBar />
+            </div>
+            <div className={styles.lanes}>
+              <Lanes />
             </div>
           </div>
         </TabPanel>
