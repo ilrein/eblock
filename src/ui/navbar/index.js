@@ -7,6 +7,8 @@ import fonts from '../../fonts/fonts.scss';
 import logo from './logo-eblock.png';
 import bars from './bars.png';
 import finished from './finished.png';
+import pending from './pending.png';
+import sell from './sell.png';
 
 const Navbar = () =>
   <div className={cx(styles.header, styles.black)}>
@@ -19,12 +21,12 @@ const Navbar = () =>
       </div>
 
       <div className={cx(styles.grey, styles.body)}>
-        <img className={styles.icon} src={bars} alt="eBlock" />
+        <img className={styles.icon} src={sell} alt="eBlock" />
         <div className={cx(fonts['promixanova-semibold'], styles.content)}>SELL</div>
       </div>
 
       <div className={cx(styles.grey, styles.body)}>
-        <img className={styles.icon} src={bars} alt="eBlock" />
+        <img className={styles.icon} src={pending} alt="eBlock" />
         <div className={cx(fonts['promixanova-semibold'], styles.content)}>PENDING</div>
       </div>
 
