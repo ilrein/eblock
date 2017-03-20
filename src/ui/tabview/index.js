@@ -7,6 +7,7 @@ import styles from './styles.scss';
 
 import SearchBar from '../searchbar';
 import Lanes from '../lanes';
+import Show from '../show';
 
 class TabView extends Component {
   handleSelect = (index, last) => {};
@@ -70,6 +71,9 @@ class TabView extends Component {
             </div>
             <div className={styles.lanes}>
               <Lanes />
+            </div>
+            <div className={styles.show}>
+              <Show />
             </div>
           </div>
         </TabPanel>
